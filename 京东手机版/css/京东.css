@@ -1,0 +1,399 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+.box{
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+																	/*logo部分*/
+#logo{
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	height: 40px;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 100;
+	-webkit-transition: all 1.5s;
+}
+.show{
+	background-color: #ce1c2c;
+	-webkit-animation: move 1.5s;
+}
+@-webkit-keyframes move{
+	0%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.logo1{
+	height: 30px;
+	line-height: 28px;
+	margin-top: 4px;
+	position: relative;
+}
+.logo_div1{
+	width: 56px;
+	margin-left: 6px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.logo_div1 img{
+	width: 56px !important;
+	height: 21px !important;
+	vertical-align: middle;
+}
+.logo_div2{
+	height: 30px;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 72px;
+	margin-right: 50px;
+}
+.logo_div2 img{
+	width: 20px !important;
+	height: 20px !important;
+	margin: 0 8px;
+	vertical-align: middle;
+}
+.logo_div2 input{
+	width: 60%;
+	height: 25px;
+	display: inline-block;
+	border: 0;
+	font-size: 13px;
+}
+.logo_div3{
+	width: 32px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+.logo_div3 a{
+	color: white;
+	font-size: 15px;
+}
+																	/*头部*/
+.header{
+	width: 100%;
+}
+.header_top{
+	width: 100%;
+}
+.header_bottom{
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+.header_bottom li{
+	width: 25%;
+	list-style: none;
+	text-align: center;
+	margin: 10px 0;
+	float: left;
+}
+.header_bottom a{
+	font-size: 10px;
+	color: black;
+}
+.header_bottom img{
+	width: 40px !important;
+	height: 40px !important;
+	margin: 0 auto 6px auto;
+}
+																	/*中间部分*/
+.content{
+	width: 100%;
+	margin-top: 8px;
+}
+																/*秒杀模块*/
+.content_miaosha{
+	width: 100%;
+	line-height: 34px;
+}
+.miaosha1{
+	width: 100%;
+	margin-top: 6px;
+	overflow: hidden;
+}
+.miaosha_div1{
+	width: 82px;
+	margin-left: 10px;
+	float: left;
+}
+.miaosha_div1 img{
+	width: 18px !important;
+	height: 22px !important;
+	vertical-align: middle;
+}
+.miaosha_div1 span{
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+	margin-left: 4px;
+}
+#miaosha_div2{
+	width: 82px;
+	float: left;
+	margin-left: 10px;
+}
+.miaosha_span1{
+	width: 19px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	color: white;
+	background-color: #3d3d3d;
+	font-size: 12px;
+	display: inline-block;
+}
+.miaosha_div3{
+	width: 59px;
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.miaosha1 a{
+	color: #666666;
+}
+
+#content_huadong{
+	width: 100%;
+}
+#huadong_u1{
+	width: 100%;
+	overflow: hidden;
+}
+#huadong_u1 li{
+	width: 25%;
+	float: left;
+}
+
+.huadong{
+	width: 100%;
+	text-align: center;
+	margin-top: 9px;
+}
+.huadong_div div{
+	width: 28% !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #f8f8f8;
+}
+.huadong_p1{
+	color: red;
+	padding: 8px 0;
+	margin: 0 -6px; 
+	background-color: white;
+}
+.huadong_p2{
+	color: #8e8e8e;
+	text-decoration: line-through;
+	background-color: white;
+	margin: 0 -6px;
+}
+
+													/*秒杀下一个模块*/
+.content_xia{
+	width: 100%;
+}
+.xia_1{
+	width: 100%;
+	margin-top: 1px;
+	overflow: hidden;
+}
+.xia_1 div{
+	width: 33.2%;
+}
+.xia_div1{
+	float: left;
+}
+.xia_div2{
+	float: right;
+}
+.xia_2{
+	width: 100%;
+	overflow: hidden;
+}
+.xia_div4{
+	width: 49.9%;
+	float: left;
+}
+.xia_div5{
+	width: 49.9%;
+	float: right;
+}
+														/*特色市场*/
+.content_special{
+	width: 100%;
+	margin-top: 8px;
+}
+.special{
+	width: 100%;
+	line-height: 33px;
+	text-indent: 2em;
+	color: #f25353;
+	background-color: white;
+}
+.special1{
+	width: 100%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+.special_1{
+	width: 49.9%;
+	float: left;
+}
+.special_2{
+	width: 49.9%;
+	float: right;
+}
+															/*底部*/													
+.footer{
+	width: 100%;
+	text-align: center;
+}
+.footer p{
+	margin: 9px 0;
+}
+.footer a{
+	color: #706870;
+	font-size: 14px;
+}
+.footer_message{
+	width: 100%;
+	padding: 18px 0;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	overflow: hidden;
+}
+.footer_message li{
+	float: left;
+}
+.footer_message a{
+	color: #84898f;
+	font-size: 12px;
+}
+.li1{
+	margin: 0 8.7%;
+}
+
+.footer_tu{
+	width: 100%;
+	margin-top: 9px;
+	overflow: hidden;
+}
+.footer_tu img{
+	width: 33px !important;
+	height: 33px !important;
+}
+.footer_tu li{
+	float: left;
+	margin: 0 11% 13%;
+}
+.footer_tu a{
+	font-size: 11px;
+}
+.u1{
+	width: 320px;
+	margin: 0 auto;
+}
+
+															/*小火箭*/
+#rocket{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	display: none;
+	z-index: 1000;
+}
+
+															/*底部固定导航*/
+.footer_fix{
+	width: 100%;
+	height: 44px;
+	background-color: white;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+}
+.footer_fix li{
+	width: 25%;
+	float: left;
+}
+.footer_fix span{
+	width: 57px;
+	height: 44px;
+	display: inline-block;
+}
+.footer_fix img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
